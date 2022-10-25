@@ -9,7 +9,7 @@ module.exports = {
           'sans': ['Rubik', 'sans-serif'],
         },
         backgroundImage: {
-          galaxy: "url(./background-galaxy.png)",
+          galaxy: "url(/background-galaxy.png)",
         }
       },
     plugins: [],
