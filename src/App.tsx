@@ -7,7 +7,7 @@ function App() {
         <img className='rounded-full w-20' src="https://avatars.githubusercontent.com/u/63513686?v=4" alt="img" />
         <h1 className='text-white font-medium text-2xl'>Davi Henrique</h1>
       </div>
-      <div className='items-center justify-center flex flex-col bg-[#111827] w-[90vw] mx-auto rounded-xl'>
+      <div className='items-center justify-center flex flex-col bg-[#2a263473] w-[80vw] mx-auto rounded-xl'>
         <h1 className='text-white font-medium text-3xl'>Games</h1>
         <div className='flex flex-row py-4'>
         <img className='px-4 rounded-md w-40' src="https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg" alt="fortnite" />
@@ -15,7 +15,7 @@ function App() {
         </div>
       </div>
 
-      <div className='items-center justify-center flex flex-col bg-[#111827] w-[90vw] mx-auto rounded-xl my-10'>
+      <div className='items-center justify-center flex flex-col  w-[80vw] mx-auto rounded-xl my-10'>
         <h1 className='text-white font-medium text-3xl'>Cursos</h1>
         <div className='flex flex-row py-4'>
 
@@ -24,13 +24,13 @@ function App() {
         </div>
       </div>
 
-      <div className='items-center justify-center flex flex-col bg-[#111827] w-[90vw] mx-auto rounded-xl my-10'>
+      <div className='items-center justify-center flex flex-col w-[80vw] mx-auto rounded-xl my-10'>
         <h1 className='text-white font-medium text-3xl'>Social</h1>
         <div className='flex flex-row py-4'> 
         
-        <img className='px-4 rounded-md w-28 h-20' src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png" alt="github" />
-        <img className='px-4 rounded-md w-28 h-20' src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" alt="discord" />
-        <img className='px-4 rounded-md w-28 h-20' src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" />
+        <img className='px-4 rounded-md w-20 h-12' src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png" alt="github" />
+        <img className='px-4 rounded-md w-20 h-12' src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" alt="discord" />
+        <img className='px-4 rounded-md w-20 h-12' src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" />
         </div>
       </div>
     </div>
