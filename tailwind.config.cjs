@@ -10,6 +10,12 @@ module.exports = {
         },
         backgroundImage: {
           galaxy: "url(/background-galaxy.png)",
+          ignite: "url(/Ignite.png)",
+        },
+        colors: {
+          primary: {
+            100: '#E1E1E6'
+          }
         }
       },
     plugins: [],
