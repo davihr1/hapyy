@@ -15,6 +15,9 @@ module.exports = {
         colors: {
           primary: {
             100: '#E1E1E6'
+          },
+          black: {
+            100: 'rgba(2, 2, 2,0.8)'
           }
         }
       },
