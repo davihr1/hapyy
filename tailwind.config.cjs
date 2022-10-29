@@ -9,7 +9,7 @@ module.exports = {
           'sans': ['Rubik', 'sans-serif'],
         },
         backgroundImage: {
-          galaxy: "url(/background-galaxy.png)",
+          galaxy: "url(/background-copa.png)",
           ignite: "url(/Ignite.png)",
         },
         colors: {

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Card from "./Components/Card";
+import Footer from "./Components/Footer";
 import Modal from "./Components/Modal";
 
 import "./main.css";
@@ -19,36 +20,40 @@ function App() {
   };
 
   return (
-    <div className="items-center flex flex-col justify-center w-full h-[100vh]">
-      {/* <Modal /> */}
-      <motion.div
-        variants={copa}
-        initial="hidden"
-        animate="visible"
-        className="mt-[-10rem] pb-20"
-      >
-        <img src="/Logo.svg" alt="logo" />
-      </motion.div>
-
-      <Card />
-
-      <footer className="flex p-10 items-center justify-between w-[300px]">
-
-        <div className="flex items-center">
-        <img className="w-[40px] h-[40px] mr-4" src="/rock.png" alt="logo_rocketseat" />
-
-        <div className="border-r-[2px]  border-[#F7DD43] w-[1px] h-[25px]"></div>
-
+    <div className="items-center my-auto flex justify-between mx-auto w-[70vw] h-[100vh] max-[600px]:flex-col touch-pan-down">
+      <div className="max-[600px]:hidden">
+        <div>
+          <motion.div
+            variants={copa}
+            initial="hidden"
+            animate="visible"
+            className="mt-[-10rem] pb-5"
+          >
+            <img src="/Logo.svg" alt="logo" />
+          </motion.div>
         </div>
 
-        <a href="https://github.com/davihr1" target='_blank'>
-          <img src="/github.png" alt="github" />
-        </a>
+        <div>
+          <h1 className="text-primary-100 font-bold text-6xl">
+            Developer Frontend
+          </h1>
+          <p className="text-primary-100 font-medium text-base mt-3">
+            HTML, CSS, JAVASCRIPT TAYPESCRIPT and REACTJS
+          </p>
 
-        <a href="https://www.linkedin.com/in/davihr/" target='_blank'>
-          <img src="/linkedin.png" alt="github" />
+          <div className="w-[20rem] h-14 bg-black-100 rounded-lg my-9">
+          <a href="https://www.linkedin.com/in/davihr/" target='_blank' className="flex items-center justify-center w-full h-14 my-2 ">
+          <img src="/discord-6.svg" alt="discord" className="w-6 h-6 mx-4" />
+          <strong className="text-primary-100 text-lg">Discord</strong>
         </a>
-      </footer>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-[600px]:my-[10rem]">
+        <Card />
+        <Footer />
+      </div>
     </div>
   );
 }
