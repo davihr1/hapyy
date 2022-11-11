@@ -1,0 +1,32 @@
+.App:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.App {
+    background: #121214;
+    width: 20rem;
+    height: 16rem;
+    margin-left: 4rem;
+
+    -webkit-transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s,-webkit-transform .5s;
+}
+
+.Ifood {
+    -webkit-transition: -webkit-transform .7s;
+    transition: transform .7s;
+    transition: transform .7s,
+    -webkit-transform .7s;
+
+    width: 5rem;
+    margin-top: 2.5rem;
+}
+
+.Ifood:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(2);
+    -ms-transform: scale(1.1);
+}
