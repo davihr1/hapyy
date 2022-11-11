@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React, { Component } from 'react';
 
-export default class Card extends Component {
+export class Card extends Component {
   render() {
     const enter = {
         hidden: { opacity: 0, scale: 0.1},
