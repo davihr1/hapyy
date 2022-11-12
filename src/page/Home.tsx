@@ -25,7 +25,7 @@ export function Home() {
             HTML,  CSS, JAVASCRIPT,  TAYPESCRIPT and REACTJS
           </p>
 
-          <div className="w-[20rem] h-14 bg-black-200 rounded-lg my-9 transition duration-700 hover:bg-sucess-900 ">
+          <div className="w-[20rem] h-14 bg-sucess-900 brightness-90 rounded-lg my-9 transition duration-700 hover:brightness-125 ">
           <button onClick={ handleSubscriber } className="flex items-center justify-center w-full h-14 my-2 ">
           <img src="/discord-6.svg" alt="code icon" className="mr-5" />
           <strong className="text-primary-100 text-lg">Projetos</strong>
