@@ -9,10 +9,11 @@ module.exports = {
       'sans': ['Rubik', 'sans-serif'],
     },
     backgroundImage: {
-      galaxy: "url(/rocket.webp)",
+      react: "url(/Expand-black-ground.webp)",
       ignite: "url(/Ignite.png)",
-      react: "url(/react.svg)",
+      galaxy: "url(/react.svg)",
       plus: "url(/plus.svg)",
+      lines: "url(/Lines.svg)",
 
       'nlw-gradient': 'linear-gradient(90deg, #ff008e 30%, #ffcd1e 60%)',
       'game-gradinet': 'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 70%)'
@@ -21,8 +22,10 @@ module.exports = {
       primary: {
         100: '#E1E1E6'
       },
+      secundary: { 100: '#ff008e' },
       sucess: {
-        900: '#ff008e'
+        900: '#ff6710',
+        500: '#ffcd1e'
       },
       black: {
         100: 'rgba(2, 2, 2,0.0)',

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { useNavigate } from 'react-router-dom';
 
+import Ifood from "/vite.png";
+
 export function Footer() {
   const navigate = useNavigate()
 
@@ -12,7 +14,7 @@ export function Footer() {
     <footer className="flex p-10 items-center justify-between w-[300px]">
 
       <div className="flex items-center">
-        <img className="w-[40px] h-[40px] mr-4" src="/rock.png" alt="logo_rocketseat" />
+      <img src={Ifood} alt="Logo Ifood" className=" w-9 mt-1 mr-3" />
 
         <div className="border-r-[2px]  border-[#F7DD43] w-[1px] h-[25px]"></div>
 

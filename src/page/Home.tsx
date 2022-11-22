@@ -11,8 +11,8 @@ export function Home() {
         navigate('/Projects');
     }
   return (
-    <div className="items-center my-auto flex justify-between mx-auto w-[70vw] h-[100vh] max-[600px]:flex-col touch-pan-down">
-      <div className="max-[600px]:hidden">
+    <div className="items-center my-auto flex justify-between mx-auto w-[100vw] h-[100vh] max-[600px]:flex-col touch-pan-down bg-react">
+      <div className="max-[600px]:hidden ml-80 justify-center">
         <div>
           <Header />
         </div>
@@ -25,16 +25,16 @@ export function Home() {
             HTML,  CSS, JAVASCRIPT,  TAYPESCRIPT and REACTJS
           </p>
 
-          <div className="w-[20rem] h-14 bg-sucess-900 brightness-90 rounded-lg my-9 transition duration-700 hover:brightness-125 ">
+          <div className="w-[20rem] h-14 bg-sucess-500 rounded-lg my-9 transition duration-700 hover:bg-secundary-100  ">
           <button onClick={ handleSubscriber } className="flex items-center justify-center w-full h-14 my-2 ">
-          <img src="/discord-6.svg" alt="code icon" className="mr-5" />
-          <strong className="text-primary-100 text-lg">Projetos</strong>
+
+          <strong className="text-black-200 text-lg hover:text-primary-100 px-32 py-5">Projetos</strong>
         </button>
           </div>
         </div>
       </div>
 
-      <div className="max-[600px]:my-[4rem]">
+      <div className="max-[600px]:my-[4rem] mr-80">
         <Card />
         <Footer />
       </div>

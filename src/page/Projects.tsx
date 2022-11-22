@@ -16,7 +16,7 @@ export function Projects() {
   }
 
   return (
-    <div className="w-full h-full flex flex-col bg-plus bg-no-repeat bg-cover">
+    <div className="w-full h-full flex flex-col bg-lines bg-no-repeat bg-contain">
       <div className="items-center w-full flex mt-20 mb-40 justify-self-start">
         <button onClick={handleGoBack} className="mr-10 ml-8">
           <img src={arrowLeft} alt="voltar" />
@@ -35,14 +35,7 @@ export function Projects() {
         <Evolut text="RocketHelp - IgniteLab (Rocketseat)" url="https://media-exp1.licdn.com/dms/image/C4D22AQHVKL-7ozrU1w/feedshare-shrink_800/0/1658433557127?e=1671062400&v=beta&t=07eZQ924r34SmcMwuUXnlk97ctaZgZEzs7IT5h-L2i4" />
         <Evolut text="Tela de login Disney plus" url="https://github.com/davihr1/clone_login_dplus_ui/blob/main/img-md/print_clone_plus.jpeg?raw=true" />
       </div>
-
-      <div className="flex items-center justify-center mt-4 flex-col">
-        
-        <span className='text-black-100 bg-nlw-gradient bg-clip-text text-5xl font-semibold'>META DE TRABALHO</span>
-        
-        <img src={Ifood} alt="Logo Ifood" className="Ifood" />
-      </div>
-
+      
       <Footer />
     </div>
   );
