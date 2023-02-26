@@ -28,7 +28,7 @@ export function Footer() {
         <img src="/linkedin.png" alt="github" />
       </a>
 
-      <button onClick={handleProject} >
+      <button onClick={handleProject} title='Projects in developer'>
         <img src="/discord-6.svg" alt="code icon" className="mr-5" />
       </button>
     </footer>
