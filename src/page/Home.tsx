@@ -1,19 +1,14 @@
-import { useNavigate } from "react-router-dom";
-
 import { Card } from "../Components/Card";
+import { Certificates } from "../Components/Curses";
 import { Footer } from "../Components/Footer";
-import { Header } from "../Components/Header";
 
 export function Home() {
-    const navigate = useNavigate()
-
-    function handleSubscriber() {
-        navigate('/Projects');
-    }
   return (
-      <div className="flex items-center justify-center flex-col  w-screen h-screen">
+      <div className="flex items-center justify-center flex-col mt-10">
         <Card />
         <Footer />
+
+        <Certificates />
       </div>
   );
 }

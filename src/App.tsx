@@ -3,6 +3,7 @@ import "./main.css";
 
 
 import { Home } from "./page/Home";
+import { Layout } from "./Layout";
 import { Projects } from "./page/Projects";
 
 
@@ -10,12 +11,14 @@ function App() {
 
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/Projects" element={<Projects />} />
+      <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Route>
     </Routes>
-  </BrowserRouter>
-    );
+    </BrowserRouter>
+  );
 }
 
 export default App;
