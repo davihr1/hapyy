@@ -9,16 +9,19 @@ module.exports = {
       'sans': ['Rubik', 'sans-serif'],
     },
     backgroundImage: {
-      react: "url(/image-back.png)",
-      ignite: "url(/Ignite.png)",
-      galaxy: "url(/react.svg)",
-      plus: "url(/plus.svg)",
-      lines: "url(/Lines.svg)",
+      react: "url(/planet.png)",
 
       'nlw-gradient': 'linear-gradient(90deg, #ff008e 30%, #ffcd1e 60%)',
       'game-gradinet': 'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 70%)'
     },
     colors: {
+      main: {
+        100: '#271A45',
+        200: '#8257E5'
+      },
+      ignite: {
+        100: '#01af7c'
+      },
       primary: {
         100: '#E1E1E6'
       },
@@ -36,6 +39,11 @@ module.exports = {
         900: '#ffcd1e',
         400: '#C39907'
       }
+    },
+
+    screens: {
+      'mobile': {'max': '700px'},
+      'tablet': {'max': '714px'},
     }
   },
   plugins: [],

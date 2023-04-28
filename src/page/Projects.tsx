@@ -1,10 +1,9 @@
 export function Projects() {
   return (
     <div className="gap-10 flex flex-col items-center justify-between">
-      <h1 className="text-primary-100 text-[1.5rem]">Certificados</h1>
 
       <div className="">
-        <h1 className="text-primary-100 text-[1.5rem] px-10">Digital Innovation One</h1>
+        <h1 className="text-primary-100 text-[1.5rem] px-10 mt-20">Digital Innovation One</h1>
 
         <div className="overflow-x-auto w-screen flex items-center gap-10 py-10">
           <img src="https://hermes.dio.me/certificates/cover/E9F6BC9F.jpg" className="w-[20rem] mx-6" />

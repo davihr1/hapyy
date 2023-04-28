@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.0.9",
     "@radix-ui/react-alert-dialog": "^1.0.2",
     "@radix-ui/react-separator": "^1.0.1",
     "framer-motion": "^7.6.1",
