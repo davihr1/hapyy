@@ -1,18 +1,21 @@
-import logoCard from './../assets/card-invite.svg'
+import logoCard from './../assets/cardstudant.png'
 
 export function Card() {
   return (
-    <main className='flex-wrap flex flex-row items-center flex-1 justify-around w-full gap-x-10 h-[calc(100vh - 10rem)]'>
-      <div>
-        <h1 className='text-primary-100 text-[2rem] font-sans'>Hello World! my name is Davi Henrique </h1>
+    <main className='w-full flex items-center justify-between px-8
+    mobile:items-center
+    mobile:flex-col
+     mobile:space-y-10 mobile:mt-4'>
+      <div className='flex flex-col text-primary-100'>
+        <h1 className='text-primary-100 font-bold text-[1.25rem] mb-6'>Hello World! my name is Davi Henrique </h1>
 
-        <p className='text-primary-100 text-base flex-wrap max-w-[28rem]'>
-          Olá <span>Internautas</span> sou developer frontend cursando expert Reactjs na <a className='text-[#8257e6] border-b p-1 m-3' href="https://rocketseat.com.br">@Rocketseat</a>
+        <p className='w-[28rem] mobile:items-center mobile:w-[80vw]'>
+          Olá <span className='text-ignite-100'>Internautas</span> sou developer frontend cursando expert Reactjs na <a className='text-[#8257e6] border-b p-1 m-3' href="https://rocketseat.com.br">@Rocketseat</a>
           .Sou apaixonado pelo mundo da programação/tecnologia e gostode usar a tecnologia para melhorar o mundo
         </p>
       </div>
 
-      <img src={logoCard} alt="" className='mt-16'/>
+      <img src={logoCard} alt="" className='h-[28rem]'/>
     </main>
   )
 }

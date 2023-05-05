@@ -1,42 +1,39 @@
-import { GithubLogo, ArrowCircleRight } from '@phosphor-icons/react'
 import { Card } from "../Components/Card";
 import { Hub } from '../Components/hub';
 
+import Arrowdw from './../assets/arrowdown.png'
+import Filecore from './../assets/file_core.png'
+import File from './../assets/file_nitro.png'
+
 export function Home() {
   return (
-    <div className="flex items-center justify-center flex-col mt-10 ">
-      <Card />
-      <footer className="flex flex-wrap justify-evenly bg-main-100 w-full items-center -mt-10 mobile:flex-col mobile:flex
-      mobile:flex-nowrap mobile:space-y-6 h-full overflow-hidden mobile:h-full py-5">
-        <div className="flex flex-col items-center justify-start">
-          <div className="border-2 border-solid border-main-200 rounded-md w-[16rem] p-4 mobile:w-[90vw] mobile:items-center">
-            <h1 className="text-[2rem] text-primary-100 mx-2">Frontend</h1>
+    <div className="w-screen flex flex-col p-20 items-center justify-center">
+      <div className="flex items-center justify-center flex-col">
+        <img src="https://github.com/davihr1.png" className="rounded-full w-28" />
 
-            <li className="text-primary-100">
-              HTML
-            </li>
-            <li className="text-primary-100">
-              CSS
-            </li>
-            <li className="text-primary-100">
-              REACT
-            </li>
-            <li className="text-primary-100">
-              NEXT
-            </li>
-            <li className="text-primary-100">
-              TAILWIND
-            </li>
-            <li className="text-primary-100">
-              STYLED-COMPONENT
-            </li>
-          </div>
-        </div>
+        <h1 className="text-primary-100 text-xl font-medium mt-2">@davihenrique</h1>
+      </div>
 
-        
-          <Hub />
-      
-      </footer>
+      <nav className="m-6 flex flex-col gap-4" >
+        <a href="https://www.rocketseat.com.br/ignite" className="w-[50vw] h-16 flex items-center justify-center bg-primary-100 bg-opacity-20
+        rounded border-solid border-primary-150 border-2 mobile:w-[80vw]
+        text-primary-100 text-lg" >
+          conheça o ignite rocketseat
+        </a>
+
+        <a href="https://www.rocketseat.com.br/nlw?utm_source=site&utm_medium=organic&utm_campaign=lead&utm_term=nlw&utm_content=topbanner_site-nlw" className="w-[50vw] h-16 flex items-center justify-center bg-primary-100 bg-opacity-20
+        rounded border-solid border-primary-150 border-2 mobile:w-[80vw]
+        text-primary-100 text-lg" >
+          Inscreva-se no NLW
+        </a>
+
+        <a href="https://github.com/davihr1" className="w-[50vw] h-16 flex items-center justify-center bg-primary-100 bg-opacity-20
+        rounded border-solid border-primary-150 border-2 animate-pulse mobile:w-[80vw]
+        text-primary-100 text-lg" >
+          github - portfolio the code
+        </a>
+
+      </nav>
     </div>
   );
 }

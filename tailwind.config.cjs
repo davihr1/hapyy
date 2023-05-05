@@ -9,7 +9,7 @@ module.exports = {
       'sans': ['Rubik', 'sans-serif'],
     },
     backgroundImage: {
-      react: "url(/planet.png)",
+      react: "url(/bg-web.png)",
 
       'nlw-gradient': 'linear-gradient(90deg, #ff008e 30%, #ffcd1e 60%)',
       'game-gradinet': 'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 70%)'
@@ -23,7 +23,8 @@ module.exports = {
         100: '#01af7c'
       },
       primary: {
-        100: '#E1E1E6'
+        100: '#E1E1E6',
+        150: '#E1E1EE'
       },
       secundary: { 100: '#ff008e' },
       sucess: {
@@ -43,7 +44,7 @@ module.exports = {
 
     screens: {
       'mobile': {'max': '700px'},
-      'tablet': {'max': '714px'},
+      'tablet': {'max': '784px'},
     }
   },
   plugins: [],
