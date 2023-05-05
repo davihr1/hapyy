@@ -1,10 +1,3 @@
-import { Card } from "../Components/Card";
-import { Hub } from '../Components/hub';
-
-import Arrowdw from './../assets/arrowdown.png'
-import Filecore from './../assets/file_core.png'
-import File from './../assets/file_nitro.png'
-
 export function Home() {
   return (
     <div className="w-screen flex flex-col p-20 items-center justify-center">
