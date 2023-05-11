@@ -9,7 +9,7 @@ module.exports = {
       'sans': ['Rubik', 'sans-serif'],
     },
     backgroundImage: {
-      react: "url(/bg-web.png)",
+      react: "url(/bg-colors.png)",
 
       'nlw-gradient': 'linear-gradient(90deg, #ff008e 30%, #ffcd1e 60%)',
       'game-gradinet': 'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 70%)'

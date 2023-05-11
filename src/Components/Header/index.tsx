@@ -11,7 +11,7 @@ export function Header() {
                 <a href="https://www.linkedin.com/in/davifavaro/" className="text-primary-100 text-[1rem] flex items-center"><LinkedinLogo size={28} className="text-black-200 mr-1" /> Linkedin</a>
 
                 <nav className="gap-2 flex ml-16">
-                    <NavLink to='/projects' className='mr-2'>
+                    <NavLink to='/certificates' className='mr-2'>
                         <span className="text-primary-100 text-[1rem]">Certificados</span>
 
                     </NavLink>
