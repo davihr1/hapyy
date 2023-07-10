@@ -5,6 +5,7 @@ import "./main.css";
 import { Home } from "./page/Home";
 import { Layout } from "./Layout";
 import { Projects } from "./page/Projects";
+import { Atmverified } from "./page/Averified";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/certificates" element={<Projects />} />
+        <Route path="/verified" element={<Atmverified />} />
       </Route>
     </Routes>
     </BrowserRouter>

@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export function Projects() {
+  useEffect(() => {
+    document.title = 'Certificado'
+  } )
   return (
     <div className="gap-10 flex flex-col items-center justify-between">
 
